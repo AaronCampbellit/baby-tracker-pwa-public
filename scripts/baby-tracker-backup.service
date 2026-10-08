@@ -1,0 +1,8 @@
+[Unit]
+Description=Private off-host baby tracker database backup
+
+[Service]
+Type=oneshot
+EnvironmentFile=%h/.config/baby-tracker/backup.env
+ExecStart=/usr/bin/bash %h/.local/share/baby-tracker-pwa/scripts/backup-offhost.sh
+UMask=0077

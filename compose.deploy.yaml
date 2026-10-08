@@ -1,0 +1,68 @@
+name: did-i-feed-my-baby
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: baby
+      POSTGRES_DB: baby
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+    volumes:
+      - baby-data:/var/lib/postgresql/data
+    healthcheck:
+      test: [CMD-SHELL, pg_isready -U baby -d baby]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+  app:
+    image: did-i-feed-my-baby-app:pilot
+    environment:
+      DATABASE_URL: postgres://baby:${POSTGRES_PASSWORD}@db:5432/baby
+      APP_ORIGIN: ${APP_ORIGIN:?Set APP_ORIGIN}
+      SESSION_SECURE: ${SESSION_SECURE:-true}
+      PORT: 3001
+      HOST: 0.0.0.0
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-}
+      OWLET_TOKEN_KEY: ${OWLET_TOKEN_KEY:-}
+      OWLET_FIREBASE_API_KEY: ${OWLET_FIREBASE_API_KEY:-}
+      OWLET_AYLA_APP_ID: ${OWLET_AYLA_APP_ID:-}
+      OWLET_AYLA_APP_SECRET: ${OWLET_AYLA_APP_SECRET:-}
+      OWLET_ANDROID_PACKAGE: ${OWLET_ANDROID_PACKAGE:-}
+      OWLET_ANDROID_CERT: ${OWLET_ANDROID_CERT:-}
+    ports: ["127.0.0.1:${APP_PORT:-4174}:3001"]
+    depends_on:
+      db: {condition: service_healthy}
+    restart: unless-stopped
+  worker:
+    image: did-i-feed-my-baby-app:pilot
+    command: [node, api/src/worker.ts]
+    environment:
+      DATABASE_URL: postgres://baby:${POSTGRES_PASSWORD}@db:5432/baby
+      APP_ORIGIN: ${APP_ORIGIN:?Set APP_ORIGIN}
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-}
+    depends_on:
+      db: {condition: service_healthy}
+    restart: unless-stopped
+  owlet-worker:
+    image: did-i-feed-my-baby-app:pilot
+    command: [node, api/src/owlet-worker.ts]
+    environment:
+      DATABASE_URL: postgres://baby:${POSTGRES_PASSWORD}@db:5432/baby
+      OWLET_TOKEN_KEY: ${OWLET_TOKEN_KEY:-}
+      OWLET_FIREBASE_API_KEY: ${OWLET_FIREBASE_API_KEY:-}
+      OWLET_AYLA_APP_ID: ${OWLET_AYLA_APP_ID:-}
+      OWLET_AYLA_APP_SECRET: ${OWLET_AYLA_APP_SECRET:-}
+      OWLET_ANDROID_PACKAGE: ${OWLET_ANDROID_PACKAGE:-}
+      OWLET_ANDROID_CERT: ${OWLET_ANDROID_CERT:-}
+      VAPID_PUBLIC_KEY: ${VAPID_PUBLIC_KEY:-}
+      VAPID_PRIVATE_KEY: ${VAPID_PRIVATE_KEY:-}
+      VAPID_SUBJECT: ${VAPID_SUBJECT:-}
+    depends_on:
+      db: {condition: service_healthy}
+    restart: unless-stopped
+volumes:
+  baby-data:

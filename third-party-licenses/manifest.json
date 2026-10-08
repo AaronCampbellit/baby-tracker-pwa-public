@@ -1,0 +1,2107 @@
+{
+  "schema_version": 1,
+  "audited_date": "2026-10-08",
+  "scope": "Installed dependency license texts plus selected version-verified upstream equivalents; platform packages not installed are listed as unchecked. Not a statement of ownership or complete bundled inventory.",
+  "components": [
+    {
+      "component_root": "web",
+      "package": "@fontsource/dm-sans",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "declared_license": "OFL-1.1",
+      "lock_path": "node_modules/@fontsource/dm-sans",
+      "lock_dev": false,
+      "role": "font files: Lora and DM Sans confirmed in PWA output; Roboto imported by prototype entry only",
+      "source_url": "https://github.com/fontsource/font-files",
+      "npm_tarball": "https://registry.npmjs.org/@fontsource/dm-sans/-/dm-sans-5.3.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "6fbd040a29c2037a765dfb9f2561e9965b5c95c6dcb5dce516089d63d5f17af7",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6fbd040a29c2037a765d--LICENSE",
+          "original_package_file": "node_modules/@fontsource/dm-sans/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@fontsource/lora",
+      "version": "5.3.0",
+      "license": "OFL-1.1",
+      "declared_license": "OFL-1.1",
+      "lock_path": "node_modules/@fontsource/lora",
+      "lock_dev": false,
+      "role": "font files: Lora and DM Sans confirmed in PWA output; Roboto imported by prototype entry only",
+      "source_url": "https://github.com/fontsource/font-files",
+      "npm_tarball": "https://registry.npmjs.org/@fontsource/lora/-/lora-5.3.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "948aed765160f7b974105606c21994715a171f89fca48e57bf1e0a23aca0bef1",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/948aed765160f7b97410--LICENSE",
+          "original_package_file": "node_modules/@fontsource/lora/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@oxc-project/types",
+      "version": "0.139.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@oxc-project/types",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/oxc-project/oxc",
+      "npm_tarball": "https://registry.npmjs.org/@oxc-project/types/-/types-0.139.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "95ced5ecf1133fbf41d409b5555c86c344f83f3b019926057ddbc07cfdcc27b3",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/95ced5ecf1133fbf41d4--LICENSE",
+          "original_package_file": "node_modules/@oxc-project/types/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@phosphor-icons/react",
+      "version": "2.1.10",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@phosphor-icons/react",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/phosphor-icons/react",
+      "npm_tarball": "https://registry.npmjs.org/@phosphor-icons/react/-/react-2.1.10.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "6918b72504641180600cbbd4a86b0dfa9dfccf788775694325b71b9a029f6eb4",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6918b72504641180600c--LICENSE",
+          "original_package_file": "node_modules/@phosphor-icons/react/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@playwright/test",
+      "version": "1.61.1",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/@playwright/test",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/microsoft/playwright",
+      "npm_tarball": "https://registry.npmjs.org/@playwright/test/-/test-1.61.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/45873d00a0dd243596de--LICENSE",
+          "original_package_file": "node_modules/@playwright/test/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6d602191187b35b9b01d--NOTICE",
+          "original_package_file": "node_modules/@playwright/test/NOTICE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/primitive",
+      "version": "1.1.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/primitive",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/primitive/-/primitive-1.1.5.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/primitive/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-compose-refs",
+      "version": "1.1.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-compose-refs",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-compose-refs/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-context",
+      "version": "1.2.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-context",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-context/-/react-context-1.2.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-context/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-dialog",
+      "version": "1.1.19",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-dialog",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-dialog/-/react-dialog-1.1.19.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-dialog/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-dismissable-layer",
+      "version": "1.1.15",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-dismissable-layer",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-dismissable-layer/-/react-dismissable-layer-1.1.15.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-dismissable-layer/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-focus-guards",
+      "version": "1.1.4",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-focus-guards",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-focus-guards/-/react-focus-guards-1.1.4.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-focus-guards/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-focus-scope",
+      "version": "1.1.12",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-focus-scope",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-focus-scope/-/react-focus-scope-1.1.12.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-focus-scope/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-icons",
+      "version": "1.3.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-icons",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": null,
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-icons/-/react-icons-1.3.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-icons/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-id",
+      "version": "1.1.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-id",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-id/-/react-id-1.1.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-id/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-portal",
+      "version": "1.1.13",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-portal",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-portal/-/react-portal-1.1.13.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-portal/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-presence",
+      "version": "1.1.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-presence",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-presence/-/react-presence-1.1.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-presence/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-primitive",
+      "version": "2.1.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-primitive",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-primitive/-/react-primitive-2.1.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-primitive/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-slot",
+      "version": "1.3.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-slot",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.3.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-slot/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-use-callback-ref",
+      "version": "1.1.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-use-callback-ref",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-use-callback-ref/-/react-use-callback-ref-1.1.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-use-callback-ref/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-use-controllable-state",
+      "version": "1.2.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-use-controllable-state",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-use-controllable-state/-/react-use-controllable-state-1.2.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-use-controllable-state/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-use-effect-event",
+      "version": "0.0.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-use-effect-event",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-use-effect-event/-/react-use-effect-event-0.0.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-use-effect-event/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@radix-ui/react-use-layout-effect",
+      "version": "1.1.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@radix-ui/react-use-layout-effect",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/radix-ui/primitives",
+      "npm_tarball": "https://registry.npmjs.org/@radix-ui/react-use-layout-effect/-/react-use-layout-effect-1.1.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/0e80a2d229d2fd4fc7e8--LICENSE",
+          "original_package_file": "node_modules/@radix-ui/react-use-layout-effect/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@rolldown/binding-linux-x64-gnu",
+      "version": "1.1.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@rolldown/binding-linux-x64-gnu",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/rolldown/rolldown",
+      "npm_tarball": "https://registry.npmjs.org/@rolldown/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.1.5.tgz",
+      "texts": [
+        {
+          "kind": "same-version-installed-parent-project-license",
+          "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+          "copied_text": "third-party-licenses/texts/23ecfff35a5a2e80d921--LICENSE",
+          "original_package_file": "node_modules/rolldown/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@rolldown/pluginutils",
+      "version": "1.0.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@rolldown/pluginutils",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/rolldown/plugins",
+      "npm_tarball": "https://registry.npmjs.org/@rolldown/pluginutils/-/pluginutils-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "e1919b3b98b8bf6c1b99fcc60a0ed46027c97ac947432e1278446c9606f50161",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/e1919b3b98b8bf6c1b99--LICENSE",
+          "original_package_file": "node_modules/@rolldown/pluginutils/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@types/react",
+      "version": "19.2.17",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@types/react",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "npm_tarball": "https://registry.npmjs.org/@types/react/-/react-19.2.17.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c2cfccb812fe482101a8--LICENSE",
+          "original_package_file": "node_modules/@types/react/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@types/react-dom",
+      "version": "19.2.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@types/react-dom",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "npm_tarball": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.2.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c2cfccb812fe482101a8--LICENSE",
+          "original_package_file": "node_modules/@types/react-dom/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/@typescript/typescript-linux-x64",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/microsoft/TypeScript",
+      "npm_tarball": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a7d00bfd54525bc694b6--LICENSE",
+          "original_package_file": "node_modules/@typescript/typescript-linux-x64/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f5c708b59114507b8b27--NOTICE.txt",
+          "original_package_file": "node_modules/@typescript/typescript-linux-x64/NOTICE.txt"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "@vitejs/plugin-react",
+      "version": "6.0.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@vitejs/plugin-react",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/vitejs/vite-plugin-react",
+      "npm_tarball": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-6.0.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "29b68325fe026047d13e187b44c33b2acacf7dc647dec4583702e59f235e13b5",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/29b68325fe026047d13e--LICENSE",
+          "original_package_file": "node_modules/@vitejs/plugin-react/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "aria-hidden",
+      "version": "1.2.6",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/aria-hidden",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/aria-hidden",
+      "npm_tarball": "https://registry.npmjs.org/aria-hidden/-/aria-hidden-1.2.6.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/30f0cfddf483d1128e36--LICENSE",
+          "original_package_file": "node_modules/aria-hidden/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "csstype",
+      "version": "3.2.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/csstype",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/frenic/csstype",
+      "npm_tarball": "https://registry.npmjs.org/csstype/-/csstype-3.2.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/11d55bd4541c75ee7879--LICENSE",
+          "original_package_file": "node_modules/csstype/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "detect-libc",
+      "version": "2.1.2",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/detect-libc",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/lovell/detect-libc",
+      "npm_tarball": "https://registry.npmjs.org/detect-libc/-/detect-libc-2.1.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/b40930bbcf80744c86c4--LICENSE",
+          "original_package_file": "node_modules/detect-libc/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "detect-node-es",
+      "version": "1.1.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/detect-node-es",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/thekashey/detect-node",
+      "npm_tarball": "https://registry.npmjs.org/detect-node-es/-/detect-node-es-1.1.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "54b32293ea560d22cd9b62af9b2cda1a030d910a48c6601d227c5ff2338d95f8",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/54b32293ea560d22cd9b--LICENSE",
+          "original_package_file": "node_modules/detect-node-es/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "fdir",
+      "version": "6.5.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/fdir",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/thecodrr/fdir",
+      "npm_tarball": "https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/9a39f2aadab11a3697ed--LICENSE",
+          "original_package_file": "node_modules/fdir/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "get-nonce",
+      "version": "1.0.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/get-nonce",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/get-nonce",
+      "npm_tarball": "https://registry.npmjs.org/get-nonce/-/get-nonce-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/acf3b087b348d2f2e731--LICENSE",
+          "original_package_file": "node_modules/get-nonce/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "lightningcss",
+      "version": "1.32.0",
+      "license": "MPL-2.0",
+      "declared_license": "MPL-2.0",
+      "lock_path": "node_modules/lightningcss",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/parcel-bundler/lightningcss",
+      "npm_tarball": "https://registry.npmjs.org/lightningcss/-/lightningcss-1.32.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/5eba353fe5076ac34321--LICENSE",
+          "original_package_file": "node_modules/lightningcss/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "lightningcss-linux-x64-gnu",
+      "version": "1.32.0",
+      "license": "MPL-2.0",
+      "declared_license": "MPL-2.0",
+      "lock_path": "node_modules/lightningcss-linux-x64-gnu",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/parcel-bundler/lightningcss",
+      "npm_tarball": "https://registry.npmjs.org/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.32.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/5eba353fe5076ac34321--LICENSE",
+          "original_package_file": "node_modules/lightningcss-linux-x64-gnu/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "nanoid",
+      "version": "3.3.20",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/nanoid",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/ai/nanoid",
+      "npm_tarball": "https://registry.npmjs.org/nanoid/-/nanoid-3.3.20.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/da4db1480d9beea3483a--LICENSE",
+          "original_package_file": "node_modules/nanoid/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "picocolors",
+      "version": "1.1.1",
+      "license": "ISC",
+      "declared_license": "ISC",
+      "lock_path": "node_modules/picocolors",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/alexeyraspopov/picocolors",
+      "npm_tarball": "https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6582629e2979466878f6--LICENSE",
+          "original_package_file": "node_modules/picocolors/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "picomatch",
+      "version": "4.0.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/picomatch",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/micromatch/picomatch",
+      "npm_tarball": "https://registry.npmjs.org/picomatch/-/picomatch-4.0.5.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/d0cd141b0c322fded5df--LICENSE",
+          "original_package_file": "node_modules/picomatch/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "playwright",
+      "version": "1.61.1",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/playwright",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/microsoft/playwright",
+      "npm_tarball": "https://registry.npmjs.org/playwright/-/playwright-1.61.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/45873d00a0dd243596de--LICENSE",
+          "original_package_file": "node_modules/playwright/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6d602191187b35b9b01d--NOTICE",
+          "original_package_file": "node_modules/playwright/NOTICE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "b17ac0bd6f4b8207e440639cc8e0ba1bf1d9eaf9b12236764ab93b346c7abd8e",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/b17ac0bd6f4b8207e440--ThirdPartyNotices.txt",
+          "original_package_file": "node_modules/playwright/ThirdPartyNotices.txt"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "playwright-core",
+      "version": "1.61.1",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/playwright-core",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/microsoft/playwright",
+      "npm_tarball": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.61.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/45873d00a0dd243596de--LICENSE",
+          "original_package_file": "node_modules/playwright-core/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6d602191187b35b9b01d--NOTICE",
+          "original_package_file": "node_modules/playwright-core/NOTICE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "a549d329bad8806fe279f0ecae0fc0270dec7e7c2dc8ec10f90e394f7c32b144",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a549d329bad8806fe279--ThirdPartyNotices.txt",
+          "original_package_file": "node_modules/playwright-core/ThirdPartyNotices.txt"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "postcss",
+      "version": "8.5.29",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/postcss",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/postcss/postcss",
+      "npm_tarball": "https://registry.npmjs.org/postcss/-/postcss-8.5.29.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/5be1f3465bba68a62677--LICENSE",
+          "original_package_file": "node_modules/postcss/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "react",
+      "version": "19.2.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/react",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/facebook/react",
+      "npm_tarball": "https://registry.npmjs.org/react/-/react-19.2.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/da6d3703ed11cbe42bd2--LICENSE",
+          "original_package_file": "node_modules/react/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "react-dom",
+      "version": "19.2.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/react-dom",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/facebook/react",
+      "npm_tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.2.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/da6d3703ed11cbe42bd2--LICENSE",
+          "original_package_file": "node_modules/react-dom/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "react-remove-scroll",
+      "version": "2.7.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/react-remove-scroll",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/react-remove-scroll",
+      "npm_tarball": "https://registry.npmjs.org/react-remove-scroll/-/react-remove-scroll-2.7.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/30f0cfddf483d1128e36--LICENSE",
+          "original_package_file": "node_modules/react-remove-scroll/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "react-style-singleton",
+      "version": "2.2.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/react-style-singleton",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/react-style-singleton",
+      "npm_tarball": "https://registry.npmjs.org/react-style-singleton/-/react-style-singleton-2.2.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/30f0cfddf483d1128e36--LICENSE",
+          "original_package_file": "node_modules/react-style-singleton/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "rolldown",
+      "version": "1.1.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/rolldown",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/rolldown/rolldown",
+      "npm_tarball": "https://registry.npmjs.org/rolldown/-/rolldown-1.1.5.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/23ecfff35a5a2e80d921--LICENSE",
+          "original_package_file": "node_modules/rolldown/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "scheduler",
+      "version": "0.27.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/scheduler",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/facebook/react",
+      "npm_tarball": "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/da6d3703ed11cbe42bd2--LICENSE",
+          "original_package_file": "node_modules/scheduler/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "source-map-js",
+      "version": "1.2.2",
+      "license": "BSD-3-Clause",
+      "declared_license": "BSD-3-Clause",
+      "lock_path": "node_modules/source-map-js",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/7rulnik/source-map-js",
+      "npm_tarball": "https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/6cb0631f71c7749763fd--LICENSE",
+          "original_package_file": "node_modules/source-map-js/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "tinyglobby",
+      "version": "0.2.17",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/tinyglobby",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/SuperchupuDev/tinyglobby",
+      "npm_tarball": "https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.17.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/22c68811e174cbbfb381--LICENSE",
+          "original_package_file": "node_modules/tinyglobby/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "tslib",
+      "version": "2.8.1",
+      "license": "0BSD",
+      "declared_license": "0BSD",
+      "lock_path": "node_modules/tslib",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/Microsoft/tslib",
+      "npm_tarball": "https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "da16ddb65f8ca390998fb99223d0112498b56b45784d00afd77ff8ce1ac4de8b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/da16ddb65f8ca390998f--CopyrightNotice.txt",
+          "original_package_file": "node_modules/tslib/CopyrightNotice.txt"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/210b19e543130388c686--LICENSE.txt",
+          "original_package_file": "node_modules/tslib/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "typescript",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/typescript",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/microsoft/TypeScript",
+      "npm_tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a7d00bfd54525bc694b6--LICENSE",
+          "original_package_file": "node_modules/typescript/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f5c708b59114507b8b27--NOTICE.txt",
+          "original_package_file": "node_modules/typescript/NOTICE.txt"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "use-callback-ref",
+      "version": "1.3.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/use-callback-ref",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/use-callback-ref/",
+      "npm_tarball": "https://registry.npmjs.org/use-callback-ref/-/use-callback-ref-1.3.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/30f0cfddf483d1128e36--LICENSE",
+          "original_package_file": "node_modules/use-callback-ref/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "use-sidecar",
+      "version": "1.1.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/use-sidecar",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/use-sidecar",
+      "npm_tarball": "https://registry.npmjs.org/use-sidecar/-/use-sidecar-1.1.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/30f0cfddf483d1128e36--LICENSE",
+          "original_package_file": "node_modules/use-sidecar/LICENSE"
+        }
+      ]
+    },
+    {
+      "component_root": "web",
+      "package": "vite",
+      "version": "8.1.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/vite",
+      "lock_dev": true,
+      "role": "development/build tool",
+      "source_url": "https://github.com/vitejs/vite",
+      "npm_tarball": "https://registry.npmjs.org/vite/-/vite-8.1.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "b1d741c26b53de1bbc0d4d7d3365b79888f9fe511527544a8a7b8e24dec43147",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/b1d741c26b53de1bbc0d--LICENSE.md",
+          "original_package_file": "node_modules/vite/LICENSE.md"
+        }
+      ]
+    },
+    {
+      "component_root": "api",
+      "package": "@types/node",
+      "version": "22.20.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@types/node",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "npm_tarball": "https://registry.npmjs.org/@types/node/-/node-22.20.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c2cfccb812fe482101a8--LICENSE",
+          "original_package_file": "node_modules/@types/node/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "@types/pg",
+      "version": "8.23.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@types/pg",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "npm_tarball": "https://registry.npmjs.org/@types/pg/-/pg-8.23.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c2cfccb812fe482101a8--LICENSE",
+          "original_package_file": "node_modules/@types/pg/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "@types/web-push",
+      "version": "3.6.4",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/@types/web-push",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+      "npm_tarball": "https://registry.npmjs.org/@types/web-push/-/web-push-3.6.4.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c2cfccb812fe482101a8--LICENSE",
+          "original_package_file": "node_modules/@types/web-push/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "@typescript/typescript-linux-x64",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/@typescript/typescript-linux-x64",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/microsoft/TypeScript",
+      "npm_tarball": "https://registry.npmjs.org/@typescript/typescript-linux-x64/-/typescript-linux-x64-7.0.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a7d00bfd54525bc694b6--LICENSE",
+          "original_package_file": "node_modules/@typescript/typescript-linux-x64/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f5c708b59114507b8b27--NOTICE.txt",
+          "original_package_file": "node_modules/@typescript/typescript-linux-x64/NOTICE.txt"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "agent-base",
+      "version": "7.1.4",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/agent-base",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/TooTallNate/proxy-agents",
+      "npm_tarball": "https://registry.npmjs.org/agent-base/-/agent-base-7.1.4.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/8d8c55319c7729d57be8--LICENSE",
+          "original_package_file": "node_modules/agent-base/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "asn1.js",
+      "version": "5.4.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/asn1.js",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/indutny/asn1.js",
+      "npm_tarball": "https://registry.npmjs.org/asn1.js/-/asn1.js-5.4.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "251ecdcdb2bafa7b106187a8cce96f322d0074c66e557c3c94cb49c769970408",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/251ecdcdb2bafa7b1061--LICENSE",
+          "original_package_file": "node_modules/asn1.js/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "bn.js",
+      "version": "4.12.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/bn.js",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/indutny/bn.js",
+      "npm_tarball": "https://registry.npmjs.org/bn.js/-/bn.js-4.12.5.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "445739f5b5eb63e5aeff5aeb0f35a45080a421615dce0d97f9939aeea498acdd",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/445739f5b5eb63e5aeff--LICENSE",
+          "original_package_file": "node_modules/bn.js/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "buffer-equal-constant-time",
+      "version": "1.0.1",
+      "license": "BSD-3-Clause",
+      "declared_license": "BSD-3-Clause",
+      "lock_path": "node_modules/buffer-equal-constant-time",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/goinstant/buffer-equal-constant-time",
+      "npm_tarball": "https://registry.npmjs.org/buffer-equal-constant-time/-/buffer-equal-constant-time-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "751d0e80fb5c828f8c3de198cc760e1e05377e47c8263ab6ee2f10cdc19ba658",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/751d0e80fb5c828f8c3d--LICENSE.txt",
+          "original_package_file": "node_modules/buffer-equal-constant-time/LICENSE.txt"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "debug",
+      "version": "4.4.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/debug",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/debug-js/debug",
+      "npm_tarball": "https://registry.npmjs.org/debug/-/debug-4.4.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/3a61c6c96caf5c1d9b62--LICENSE",
+          "original_package_file": "node_modules/debug/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "ecdsa-sig-formatter",
+      "version": "1.0.11",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/ecdsa-sig-formatter",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": null,
+      "npm_tarball": "https://registry.npmjs.org/ecdsa-sig-formatter/-/ecdsa-sig-formatter-1.0.11.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "50a6b24f8defc31a078aa9799a91d776f83948071574854f12473362aee74d0d",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/50a6b24f8defc31a078a--LICENSE",
+          "original_package_file": "node_modules/ecdsa-sig-formatter/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "http_ece",
+      "version": "1.2.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/http_ece",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/martinthomson/encrypted-content-encoding",
+      "npm_tarball": "https://registry.npmjs.org/http_ece/-/http_ece-1.2.0.tgz",
+      "texts": [
+        {
+          "kind": "upstream-license-at-published-gitHead-or-verified-release-tag",
+          "url": "https://raw.githubusercontent.com/martinthomson/encrypted-content-encoding/0562510a30819f52424724a6fd5504becacd98a1/LICENSE",
+          "revision": "0562510a30819f52424724a6fd5504becacd98a1",
+          "sha256": "717363ac0c7f0883042868db171cfed1f4b423119249eac9bce5131291017ea8",
+          "copied_text": "third-party-licenses/texts/717363ac0c7f08830428--http_ece-1.2.0-LICENSE",
+          "original_package_file": null,
+          "source_url": "https://raw.githubusercontent.com/martinthomson/encrypted-content-encoding/0562510a30819f52424724a6fd5504becacd98a1/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "https-proxy-agent",
+      "version": "7.0.6",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/https-proxy-agent",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/TooTallNate/proxy-agents",
+      "npm_tarball": "https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-7.0.6.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/8d8c55319c7729d57be8--LICENSE",
+          "original_package_file": "node_modules/https-proxy-agent/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "inherits",
+      "version": "2.0.4",
+      "license": "ISC",
+      "declared_license": "ISC",
+      "lock_path": "node_modules/inherits",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/isaacs/inherits",
+      "npm_tarball": "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/5ffe28e7ade7d8f10d85--LICENSE",
+          "original_package_file": "node_modules/inherits/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "jwa",
+      "version": "2.0.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/jwa",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianloveswords/node-jwa",
+      "npm_tarball": "https://registry.npmjs.org/jwa/-/jwa-2.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/3320319f8a5f42bc4254--LICENSE",
+          "original_package_file": "node_modules/jwa/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "jws",
+      "version": "4.0.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/jws",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianloveswords/node-jws",
+      "npm_tarball": "https://registry.npmjs.org/jws/-/jws-4.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "3320319f8a5f42bc4254e65471eca7a5ea4dc8c883c4c24b4868e36b14890bcf",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/3320319f8a5f42bc4254--LICENSE",
+          "original_package_file": "node_modules/jws/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "minimalistic-assert",
+      "version": "1.0.1",
+      "license": "ISC",
+      "declared_license": "ISC",
+      "lock_path": "node_modules/minimalistic-assert",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/calvinmetcalf/minimalistic-assert",
+      "npm_tarball": "https://registry.npmjs.org/minimalistic-assert/-/minimalistic-assert-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "136fee1129ea96ce18b41c26a72f5d4ba196ee41bfd73b55d0b8509cdda148e9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/136fee1129ea96ce18b4--LICENSE",
+          "original_package_file": "node_modules/minimalistic-assert/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "minimist",
+      "version": "1.2.8",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/minimist",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/minimistjs/minimist",
+      "npm_tarball": "https://registry.npmjs.org/minimist/-/minimist-1.2.8.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "435a6722c786b0a56fbe7387028f1d9d3f3a2d0fb615bb8fee118727c3f59b7b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/435a6722c786b0a56fbe--LICENSE",
+          "original_package_file": "node_modules/minimist/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "ms",
+      "version": "2.1.3",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/ms",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/vercel/ms",
+      "npm_tarball": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/1662fae9b5314d11cf51--license.md",
+          "original_package_file": "node_modules/ms/license.md"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg",
+      "version": "8.23.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-postgres",
+      "npm_tarball": "https://registry.npmjs.org/pg/-/pg-8.23.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/192b8f5c96900f04a127--LICENSE",
+          "original_package_file": "node_modules/pg/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-cloudflare",
+      "version": "1.4.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg-cloudflare",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-postgres",
+      "npm_tarball": "https://registry.npmjs.org/pg-cloudflare/-/pg-cloudflare-1.4.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/192b8f5c96900f04a127--LICENSE",
+          "original_package_file": "node_modules/pg-cloudflare/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-connection-string",
+      "version": "2.14.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg-connection-string",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-postgres",
+      "npm_tarball": "https://registry.npmjs.org/pg-connection-string/-/pg-connection-string-2.14.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "2244b5486c4427001b6756a87b9a297d427c111dcc3ba64a097492a8979c23d0",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/2244b5486c4427001b67--LICENSE",
+          "original_package_file": "node_modules/pg-connection-string/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-int8",
+      "version": "1.0.1",
+      "license": "ISC",
+      "declared_license": "ISC",
+      "lock_path": "node_modules/pg-int8",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/charmander/pg-int8",
+      "npm_tarball": "https://registry.npmjs.org/pg-int8/-/pg-int8-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "4e8e87ccdfc7e4b47fd89015f78468aa53b6bf43ab6e6e12d43e8f55294911de",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/4e8e87ccdfc7e4b47fd8--LICENSE",
+          "original_package_file": "node_modules/pg-int8/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-pool",
+      "version": "3.14.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg-pool",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-postgres",
+      "npm_tarball": "https://registry.npmjs.org/pg-pool/-/pg-pool-3.14.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "4f15ee7fc2a72082859d7e0d12dfa4bcdd70b1c744ad3850d07780730ac08557",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/4f15ee7fc2a72082859d--LICENSE",
+          "original_package_file": "node_modules/pg-pool/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-protocol",
+      "version": "1.16.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg-protocol",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-postgres",
+      "npm_tarball": "https://registry.npmjs.org/pg-protocol/-/pg-protocol-1.16.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "192b8f5c96900f04a1271dec39688655d7416c1c6ea84a508e18b50d2b6751f3",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/192b8f5c96900f04a127--LICENSE",
+          "original_package_file": "node_modules/pg-protocol/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pg-types",
+      "version": "2.2.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pg-types",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/brianc/node-pg-types",
+      "npm_tarball": "https://registry.npmjs.org/pg-types/-/pg-types-2.2.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-readme-license-section",
+          "sha256": "c565667e0560bba6502cda29fd9d461fd3acaf9dac24dda4d2758ce0f8b720cd",
+          "copied_text": "third-party-licenses/texts/c565667e0560bba6502c--README.md",
+          "original_package_file": "node_modules/pg-types/README.md"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "pgpass",
+      "version": "1.0.5",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/pgpass",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/hoegaarden/pgpass",
+      "npm_tarball": "https://registry.npmjs.org/pgpass/-/pgpass-1.0.5.tgz",
+      "texts": [
+        {
+          "kind": "installed-readme-license-section",
+          "sha256": "f660a02f22de943c8c28a93791e8571c67f9088be93226fd526842b586cb4db4",
+          "copied_text": "third-party-licenses/texts/f660a02f22de943c8c28--README.md",
+          "original_package_file": "node_modules/pgpass/README.md"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "postgres-array",
+      "version": "2.0.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/postgres-array",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/bendrucker/postgres-array",
+      "npm_tarball": "https://registry.npmjs.org/postgres-array/-/postgres-array-2.0.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f057f36739d53d228a74--license",
+          "original_package_file": "node_modules/postgres-array/license"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "postgres-bytea",
+      "version": "1.0.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/postgres-bytea",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/bendrucker/postgres-bytea",
+      "npm_tarball": "https://registry.npmjs.org/postgres-bytea/-/postgres-bytea-1.0.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f057f36739d53d228a74--license",
+          "original_package_file": "node_modules/postgres-bytea/license"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "postgres-date",
+      "version": "1.0.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/postgres-date",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/bendrucker/postgres-date",
+      "npm_tarball": "https://registry.npmjs.org/postgres-date/-/postgres-date-1.0.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f057f36739d53d228a74--license",
+          "original_package_file": "node_modules/postgres-date/license"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "postgres-interval",
+      "version": "1.2.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/postgres-interval",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/bendrucker/postgres-interval",
+      "npm_tarball": "https://registry.npmjs.org/postgres-interval/-/postgres-interval-1.2.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "f057f36739d53d228a746de4440c1e0c644ecde06d6beab45337d39c9d12a393",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f057f36739d53d228a74--license",
+          "original_package_file": "node_modules/postgres-interval/license"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "prettier",
+      "version": "3.9.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/prettier",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/prettier/prettier",
+      "npm_tarball": "https://registry.npmjs.org/prettier/-/prettier-3.9.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "b0f2417199889f1c0d28ec4e0244eacf1a15de5819d61f641dd7d8f45153ac9c",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/b0f2417199889f1c0d28--LICENSE",
+          "original_package_file": "node_modules/prettier/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "aaf6032babb49d6e5601ab06f315d6d6bab605cb4672f03e9972ff3c80232cdc",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/aaf6032babb49d6e5601--THIRD-PARTY-NOTICES.md",
+          "original_package_file": "node_modules/prettier/THIRD-PARTY-NOTICES.md"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "safe-buffer",
+      "version": "5.2.1",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/safe-buffer",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/feross/safe-buffer",
+      "npm_tarball": "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c7cc929b57080f4b9d0c--LICENSE",
+          "original_package_file": "node_modules/safe-buffer/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "safer-buffer",
+      "version": "2.1.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/safer-buffer",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/ChALkeR/safer-buffer",
+      "npm_tarball": "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "4bc935e71be198c67ddf3c2b5fddb195f6edc182bfc155a96a6db61b44b494b9",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/4bc935e71be198c67ddf--LICENSE",
+          "original_package_file": "node_modules/safer-buffer/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "split2",
+      "version": "4.2.0",
+      "license": "ISC",
+      "declared_license": "ISC",
+      "lock_path": "node_modules/split2",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/mcollina/split2",
+      "npm_tarball": "https://registry.npmjs.org/split2/-/split2-4.2.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "c372ef2fa1dfcb124ed807609751e75e3a009f108c5724916b489288fcb88a0c",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/c372ef2fa1dfcb124ed8--LICENSE",
+          "original_package_file": "node_modules/split2/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "typescript",
+      "version": "7.0.2",
+      "license": "Apache-2.0",
+      "declared_license": "Apache-2.0",
+      "lock_path": "node_modules/typescript",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/microsoft/TypeScript",
+      "npm_tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a7d00bfd54525bc694b6--LICENSE",
+          "original_package_file": "node_modules/typescript/LICENSE"
+        },
+        {
+          "kind": "installed-license",
+          "sha256": "f5c708b59114507b8b27b48181b6883d106bbca0c1634bbee45b5e344237b66b",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/f5c708b59114507b8b27--NOTICE.txt",
+          "original_package_file": "node_modules/typescript/NOTICE.txt"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "undici-types",
+      "version": "6.21.0",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/undici-types",
+      "lock_dev": true,
+      "role": "development/test tool",
+      "source_url": "https://github.com/nodejs/undici",
+      "npm_tarball": "https://registry.npmjs.org/undici-types/-/undici-types-6.21.0.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a6db8096b2707bc0102d--LICENSE",
+          "original_package_file": "node_modules/undici-types/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "web-push",
+      "version": "3.6.7",
+      "license": "MPL-2.0",
+      "declared_license": "MPL-2.0",
+      "lock_path": "node_modules/web-push",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/web-push-libs/web-push",
+      "npm_tarball": "https://registry.npmjs.org/web-push/-/web-push-3.6.7.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "1fe5dbc03ffe518da23f1297de78ab5612532eddca93cca287a8dfaf4ad7ddce",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/1fe5dbc03ffe518da23f--LICENSE",
+          "original_package_file": "node_modules/web-push/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "api",
+      "package": "xtend",
+      "version": "4.0.2",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/xtend",
+      "lock_dev": false,
+      "role": "server dependency; node_modules distributed in server image/package",
+      "source_url": "https://github.com/Raynos/xtend",
+      "npm_tarball": "https://registry.npmjs.org/xtend/-/xtend-4.0.2.tgz",
+      "texts": [
+        {
+          "kind": "installed-license",
+          "sha256": "82e67379203d5794e7c44549847d8d64ae6904591381682360470898bd306821",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/82e67379203d5794e7c4--LICENSE",
+          "original_package_file": "node_modules/xtend/LICENSE"
+        }
+      ],
+      "evidence_origin": "Version-matched original API node_modules; documentation-copy node_modules was absent."
+    },
+    {
+      "component_root": "web",
+      "package": "react-remove-scroll-bar",
+      "version": "2.3.7",
+      "license": "MIT",
+      "declared_license": "MIT",
+      "lock_path": "node_modules/react-remove-scroll/node_modules/react-remove-scroll-bar",
+      "lock_dev": false,
+      "role": "client dependency; exact tree-shaken bundle membership not exhaustively mapped",
+      "source_url": "https://github.com/theKashey/react-remove-scroll-bar",
+      "npm_tarball": "https://registry.npmjs.org/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.7.tgz",
+      "texts": [
+        {
+          "kind": "upstream-license-version-verified-source-revision",
+          "sha256": "a79aae0c0f21990d9d963bb3c5a79cdcea9a46f8523ba55c58d7fe776b6ebc84",
+          "selection": null,
+          "copied_text": "third-party-licenses/texts/a79aae0c0f21990d9d96--LICENSE",
+          "verbatim_source": "https://github.com/theKashey/react-remove-scroll-bar/blob/8ca9ba5ea52de03308fe8ced94f7b159a44d28ff/LICENSE",
+          "upstream_revision": "8ca9ba5ea52de03308fe8ced94f7b159a44d28ff",
+          "version_evidence": "https://github.com/theKashey/react-remove-scroll-bar/blob/8ca9ba5ea52de03308fe8ced94f7b159a44d28ff/package.json",
+          "note": "Source revision package.json is version 2.3.7. This is not asserted to be the npm release gitHead; release tag omits LICENSE."
+        }
+      ]
+    }
+  ],
+  "shared_license_texts": [
+    {
+      "license": "MPL-2.0",
+      "file": "third-party-licenses/MPL-2.0.txt",
+      "sha256": "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e",
+      "verbatim_source": "web/node_modules/lightningcss/LICENSE",
+      "official_source": "https://www.mozilla.org/en-US/MPL/2.0/"
+    }
+  ]
+}

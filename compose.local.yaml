@@ -1,0 +1,5 @@
+services:
+  app:
+    volumes:
+      - ./api:/app/api:ro
+      - ./web/dist/pwa:/app/web/dist/pwa:ro

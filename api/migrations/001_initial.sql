@@ -1,0 +1,15 @@
+BEGIN;
+CREATE TABLE IF NOT EXISTS families(id uuid PRIMARY KEY, name text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS users(id uuid PRIMARY KEY, email text UNIQUE NOT NULL, password_hash text NOT NULL, created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS memberships(family_id uuid REFERENCES families(id),user_id uuid REFERENCES users(id),role text NOT NULL CHECK(role IN ('owner','caregiver')),PRIMARY KEY(family_id,user_id));
+CREATE TABLE IF NOT EXISTS sessions(token_hash text PRIMARY KEY,user_id uuid NOT NULL REFERENCES users(id),expires_at timestamptz NOT NULL);
+CREATE TABLE IF NOT EXISTS invitations(token_hash text PRIMARY KEY,family_id uuid NOT NULL REFERENCES families(id),role text NOT NULL CHECK(role IN ('owner','caregiver')),expires_at timestamptz NOT NULL,used_at timestamptz);
+CREATE TABLE IF NOT EXISTS children(id uuid PRIMARY KEY,family_id uuid NOT NULL REFERENCES families(id),name text NOT NULL,birth_date date NOT NULL,sex text,UNIQUE(id,family_id));
+CREATE TABLE IF NOT EXISTS activities(id uuid PRIMARY KEY,family_id uuid NOT NULL REFERENCES families(id),child_id uuid,adult_id uuid REFERENCES users(id),kind text NOT NULL,start_at timestamptz NOT NULL,end_at timestamptz,details jsonb NOT NULL DEFAULT '{}',author_id uuid NOT NULL REFERENCES users(id),version integer NOT NULL DEFAULT 1,deleted_at timestamptz,updated_at timestamptz NOT NULL DEFAULT now(),FOREIGN KEY(child_id,family_id) REFERENCES children(id,family_id),CHECK(end_at IS NULL OR end_at>=start_at),CHECK((child_id IS NOT NULL)::integer+(adult_id IS NOT NULL)::integer=1));
+CREATE UNIQUE INDEX IF NOT EXISTS one_sleep_per_child ON activities(child_id) WHERE kind='Sleep' AND end_at IS NULL AND deleted_at IS NULL;
+CREATE INDEX IF NOT EXISTS activity_family_updated ON activities(family_id,updated_at);
+CREATE TABLE IF NOT EXISTS push_subscriptions(id uuid PRIMARY KEY,user_id uuid NOT NULL REFERENCES users(id),subscription jsonb NOT NULL,created_at timestamptz NOT NULL DEFAULT now());
+CREATE TABLE IF NOT EXISTS reminder_preferences(user_id uuid PRIMARY KEY REFERENCES users(id),interval_minutes integer NOT NULL DEFAULT 1 CHECK(interval_minutes BETWEEN 0 AND 1440));
+CREATE TABLE IF NOT EXISTS reminder_jobs(id uuid PRIMARY KEY,activity_id uuid NOT NULL REFERENCES activities(id),user_id uuid NOT NULL REFERENCES users(id),next_at timestamptz NOT NULL,lease_until timestamptz,attempts integer NOT NULL DEFAULT 0,UNIQUE(activity_id,user_id));
+CREATE INDEX IF NOT EXISTS reminder_due ON reminder_jobs(next_at);
+COMMIT;

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-runtime="pwa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#fffcf7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <link rel="icon" type="image/png" href="/icon-192.png" />
+    <title>Did I Feed My Baby?</title>
+    <script>
+      try {
+        if (localStorage.getItem("baby-theme") === "dark") {
+          document.documentElement.dataset.babyTheme = "dark";
+          document.documentElement.style.backgroundColor = "#172334";
+          document.documentElement.style.colorScheme = "dark";
+          document.querySelector('meta[name="theme-color"]').content =
+            "#172334";
+          document.querySelector(
+            'meta[name="apple-mobile-web-app-status-bar-style"]',
+          ).content = "black-translucent";
+        }
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/pwa.tsx"></script>
+  </body>
+</html>
